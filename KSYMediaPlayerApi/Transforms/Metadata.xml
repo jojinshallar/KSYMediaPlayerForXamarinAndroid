@@ -1,0 +1,98 @@
+<metadata>
+  <!--声明所有混淆类-->
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='c']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='e']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='g']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='h']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='c']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/interface[@name='c']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/interface[@name='d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='e']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.https']/class[@name='a']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer.a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer.b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.e']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']" name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='a']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='b']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='c']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='d']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='e']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='f']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/field[@name='g']" name="obfuscated">false</attr>
+
+  
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer.a']" name="managedName">KSYMediaPlayer_AClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer.b']" name="managedName">KSYMediaPlayer_BClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.d']" name="managedName">KSYMediaPlayer_DInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.e']" name="managedName">KSYMediaPlayer_EInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']" name="managedName">KSYMediaPlayer_FInterface</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']" name="managedName">KSYMediaMeta_AClass</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.e']/method[@name='a' and count(parameter)=6 and parameter[1][@type='com.ksyun.media.player.IMediaPlayer'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int'] and parameter[6][@type='int']]" name="name">FuncA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer.a']/method[@name='a' and count(parameter)=6 and parameter[1][@type='com.ksyun.media.player.IMediaPlayer'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int'] and parameter[6][@type='int']]" name="name">FuncA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='KSYMediaPlayer.f']/method[@name='a' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.os.Bundle']]" name="managedName">FuncA</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='a']" name="managedName">AProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='b']" name="managedName">BProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='c']" name="managedName">CProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='d']" name="managedName">DProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='e']" name="managedName">EProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='f']" name="managedName">FProperty</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaMeta.a']/field[@name='g']" name="managedName">GProperty</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='a']" name="managedName">P_AClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='b']" name="managedName">P_BClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='c']" name="managedName">P_CInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/interface[@name='d']" name="managedName">P_DInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='e']" name="managedName">P_EClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']" name="managedName">P_FClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='g']" name="managedName">P_GClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='h']" name="managedName">P_HClass</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='a']" name="managedName">PU_AClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='b']" name="managedName">PU_BClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.util']/class[@name='c']" name="managedName">PU_CClass</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='a']" name="managedName">PM_AClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='b']" name="managedName">PM_BClass</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/interface[@name='c']" name="managedName">PM_CInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/interface[@name='d']" name="managedName">PM_DInterface</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='e']" name="managedName">PM_EClass</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.https']/class[@name='a']" name="managedName">PH_AClass</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='g']/field[@name='a']" name="name">GAProperty</attr>
+
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer']/method[@name='getTrackInfo' and count(parameter)=0]" name="managedName">GetMediaPlayerTrackInfo</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='KSYMediaPlayer']/field[@name='a']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedName">InputOneReturnVoidA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='a' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">InputStringReturnStringA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='a' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedName">InputTwoReturnStringA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='a' and count(parameter)=2 and parameter[1][@type='android.media.MediaCodecInfo'] and parameter[2][@type='java.lang.String']]" name="managedName">InputTwoReturnFClassA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='a' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">InputIntReturnStringA</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player']/class[@name='f']/method[@name='b' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">InputIntReturnStringB</attr>
+
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='KSYQosInfo']/field[@name='AUDIO_TOTAL_DATA_SIZE']" name="name">AudioTotalDataSizeString</attr>
+  <attr path="/api/package[@name='com.ksyun.media.player.misc']/class[@name='KSYQosInfo']/field[@name='VIDEO_TOTAL_DATA_SIZE']" name="name">VideoTotalDataSizeString</attr>
+
+</metadata>
